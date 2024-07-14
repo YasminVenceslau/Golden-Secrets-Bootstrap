@@ -1,0 +1,14 @@
+@font-face{
+    font-family: golden;
+    src: url(fonte/GOLDEN.otf);
+}
+
+.navbar h1{
+    font-family: golden;
+    font-size: 40px;
+    padding-top: 16px ;
+}
+
+.nav li{
+    padding:0 5px;
+}
