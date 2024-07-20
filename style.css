@@ -3,12 +3,120 @@
     src: url(fonte/GOLDEN.otf);
 }
 
+
 .navbar h1{
     font-family: golden;
     font-size: 40px;
     padding-top: 16px ;
 }
-
+footer h5{
+    padding-top:10em ;
+    font-family: golden;
+    font-size: 30px;
+    
+}
 .nav li{
     padding:0 5px;
+}
+
+.navbar.navbar-expand-lg{
+   border-bottom: 1px solid #dee2e6 ;
+    
+}
+
+.nlista.collapse{
+    border-bottom: 1px solid #dee2e6 ;
+}
+
+.nlista.collapse img{
+    height: 170px;
+    padding: 5px 0;
+}
+
+.col-6{
+    padding: 5px 0;
+}
+
+.nav-link{
+    color: black;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+li{
+    list-style: none;
+}
+
+.card{
+    width: 18em;
+    text-align: center;
+    
+}
+
+.carousel{
+    padding-bottom: 3em;
+}
+
+.seguido img{
+    padding: 2em 0;
+}
+
+footer{
+    background-color: rgb(31, 31, 31);
+    padding-top: 50px;
+    color: white;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+footer form{
+    background-color: rgba(0, 0, 0, 0.521); 
+    padding: 0 20px 20px;
+    border-radius: 5%;
+}
+
+.compre input{
+   margin: 5px 0;
+}
+
+footer h3{
+    font-size: 17px;
+    font-family: golden;
+    padding-top: 16px ;
+    
+}
+
+footer img{
+    border-radius: 5%;
+    padding-bottom: px;
+}
+
+.col p{
+    font-size: 14px;
+}
+
+.foot{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.865);
+    color: aliceblue;
+    
+    padding-bottom: 1px;
+
+    
+}
+
+.foot a{
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.foot a:hover{
+    color: aliceblue;
 }

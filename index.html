@@ -12,12 +12,12 @@
     
     <header>
         <div class="navbar navbar-expand-lg">
-            <div class="container">
+            <div class="container ">
                 
                 
                 <h1>Golden-Secrets</h1>
 
-                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <nav class="collapse  navbar-collapse justify-content-end" >
                     
                     <ul class="nav navbar-nav nav-pills">
                         
@@ -29,18 +29,64 @@
                     </ul>
                    
                 </nav>
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"  >
-                    <span class="navbar-toggler-icon" ></span>
-                </button>
+               
+
+                <a class="btn btn-light navbar-toggler " data-bs-toggle="offcanvas" href="#menu" role="button" aria-controls="menu">
+                    <span class="navbar-toggler-icon"></span>
+                </a>
+
+                
+
+
             </div>
-            
+        
         </div>
-        <nav class="nav nav-tabs justify-content-center " >
+
+        
+        
+    </header>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="menu" aria-label="menuLabel">
+        <div class="offcanvas-header" >
+            <h5 class="offcanvas-title" id="menuLabel" >Bem Vindo</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="CLose"></button>
+        </div>
+        <div class="offcavas-body">
+            <div class="container">
+                <ul class="">
+                    <li>
+                        <img src="imagens/perfil.png" alt=""> Se Inscreva
+                    </li>
+                    <li>
+                        <img src="imagens/procurar.png" alt="">
+                        Busque
+                    </li>
+                    <li>
+                        <img src="imagens/formato-de-coracao.png" alt="">
+                        Favoritos
+                    </li>
+                    <li>
+                        <img src="imagens/bolsa-de-compras.png" alt="">
+                        Seus Itens do Carrinho
+                    </li>
+                </ul>
+                <footer>
+                    <h5>Golden-Secrets</h5>
+                </footer>
+            </div>
+        </div>
+    </div>
+      
+      
+
+
+    <section id="cabeca">
+        <nav class="nav nav-tabs justify-content-center estatico" >
             <button class="nav-link" type="button" data-bs-toggle="collapse" data-bs-target="#aba1">
                 Maquiagens
             </button>
             <button class="nav-link" type="button" data-bs-toggle="collapse" data-bs-target="#aba2">
-                Perfumes 
+                Perfumes
             </button>
             <button class="nav-link" type="button" data-bs-toggle="collapse" data-bs-target="#aba3">
                 Cabelos
@@ -54,30 +100,287 @@
             <button class="nav-link" >
                 Novidades
             </button>
+
         </nav>
         
-        <div class="tab-content">
-            <div class="collapse " id="aba1">
-                <li>Face</li>
-                <li>Lábios</li>
-                <li>Olhos</li>
-                <li>Mais</li>
+        <div class="tab-content" >
+            <div class="collapse nlista " id="aba1"> <!-- make -->
+                <div class="container text-center">
+                    <div class="row " >
+                        <div class="col-6">
+                            <ul class="list-group ">
+                                <li class="list-group-item list-group-item-action">Lábios</li>
+                                <li class="list-group-item list-group-item-action">Face</li>
+                                <li class="list-group-item list-group-item-action">Olhos</li>
+                                <li class="list-group-item list-group-item-action">Mais</li>
+        
+                            </ul>
+        
+        
+                        </div>
+                        <div class="col-6">
+        
+                            <img src="imagens/novo1/bat1.png" alt="">
+        
+                        </div>
+                    </div>
+        
+                </div>
+        
             </div>
-            <div class="collapse" id="aba2">
-                <li>Face</li>
-                <li>Lábios</li>
-                <li>Olhos</li>
-                <li>Mais</li>
+            <div class="collapse nlista " id="aba2"> <!-- perf -->
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-group ">
+                                <li class="list-group-item list-group-item-action">Femininos</li>
+                                <li class="list-group-item list-group-item-action">Masculinos</li>
+                                <li class="list-group-item list-group-item-action">Unissex</li>
+        
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <img src="imagens/novo1/per33.png" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="collapse" id="aba3">
-
+            <div class="collapse nlista" id="aba3"> <!-- cabe -->
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-action">Shampoo</li>
+                                <li class="list-group-item list-group-item-action">Condicionador</li>
+                                <li class="list-group-item list-group-item-action">Outros</li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <img src="imagens/EDD7E0.png" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="collapse" id="aba4">
-
+            <div class="collapse nlista" id="aba4"> <!-- golden -->
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-action">Maquiagens</li>
+                                <li class="list-group-item list-group-item-action">Perfumes</li>
+                                <li class="list-group-item list-group-item-action">Cabelos</li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <img src="imagens/Black Friday fora de época/meio.png" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </header>
+    </section>
 
+    <div id="carro1" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="carro1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="carro1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="carro1" data-bs-slide-to="2" aria-label="Slide 3" ></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <picture>
+                    <source media="(max-width: 640px)" srcset="imagens/carrosel/3-640.png">
+                    <source media="(max-width: 1023px)" srcset="imagens/carrosel/3-440.png">
+                    <source media="(max-width: 1400px )" srcset="imagens/carrosel/3-4.png">
+                    <source media="(min-width: 1600px )" srcset="imagens/carrosel/3-5.png">
+                    <img src="imagens/carrosel/3.png" class="d-block w-100" alt="Desconto">
+                </picture>
+                
+            </div>
+            <div class="carousel-item">
+                <picture>
+                    <source media="(max-width: 640px )" srcset="imagens/carrosel/2-640.png">
+                    <source media="(max-width: 1023px)" srcset="imagens/carrosel/2-440.png">
+                    <source media="(max-width: 1400px )" srcset="imagens/carrosel/2-4.png">
+                    <source media="(min-width: 1600px )" srcset="imagens/carrosel/2-5.png">
+                    <img src="imagens/carrosel/2.png" class="d-block w-100" alt="Saúde">
+                </picture>
+                
+            </div>
+            <div class="carousel-item">
+                
+                <picture>
+                    <source media="(max-width: 640px)" srcset="imagens/carrosel/1-640.png">
+                    <source media="(max-width: 1023px)" srcset="imagens/carrosel/1-440.png">
+                    <source media="(max-width: 1400px )" srcset="imagens/carrosel/1-4.png">
+                    <source media="(min-width: 1600px )" srcset="imagens/carrosel/1-5.png">
+                    <img src="imagens/carrosel/1.png" class="d-block w-100" alt="organic">
+                </picture>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carro1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carro1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <div class="container  ">
+        <h2>Conheça nossos Kits Golden</h2>
+        <h4>Onde glamour e brilho se encontram</h4>
+
+        
+                <div class="row">
+                    <div class="col-4">
+                        <article  class="card text-bg-light mb-6" >
+                            <img  src="imagens/novo1/kit2.png" alt="">
+                            <div class="card-header">Kit  Antissinais </div>
+                           
+                            <div class="card-footer">
+                        
+                                <p>R$ 250</p>
+                                <button class="btn btn-dark">Compre Aqui</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-4">
+                        <article class="card text-bg-light mb-3" >
+                            <img src="imagens/novo1/kit3-2.png" alt="">
+                            <div class="card-header">Prestige Perfection Pack </div>
+                           
+                            <div class="card-footer">
+                        
+                                <p>R$ 150</p>
+                                <button class="btn btn-dark">Compre Aqui</button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-4">
+                        <article class="card text-bg-light mb-3" >
+                            <img  src="imagens/novo1/ki1-1.png" alt="">
+                            <div class="card-header">Radiant Renewal Kit </div>
+                            
+                            <div class="card-footer">
+                        
+                                <p>R$ 100</p>
+                                <button class="btn btn-dark">Compre Aqui</button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            
+    </div>
+    
+    <picture class="seguido">
+        <source media="(max-width: 640px )" srcset="imagens/life.png">
+        <source media="(max-width: 1023px )" srcset="imagens/your.png">
+        <source media="(max-width: 1279px )" srcset="imagens/life2.png">
+        <img class="w-100" src="imagens/Make your life better..png" alt="Outono">
+    </picture>
+
+    <div class="container">
+        <h2>Encanto e Sofisticação</h2>
+        <h4>Celebre a beleza e a magia da estação</h4>
+        <div class="row  ">
+            <div class="col-4">
+                <article class="card text-bg-light mb-3" >
+                    <img src="imagens/novo1/per1.png" alt="">
+                    <div class="card-header">EvE</div>
+                   
+                    <div class="card-footer">
+                
+                        <p>R$ 175</p>
+                        <button class="btn btn-dark">Compre Aqui</button>
+                    </div>
+                </article>
+            </div>
+
+                    <div class="col-4">
+                        <article class="card text-bg-light mb-3" >
+                            <img src="imagens/novo1/per22.png" alt="">
+                            <div class="card-header">Maple Mystique</div>
+                           
+                            <div class="card-footer">
+                        
+                                <p>R$ 125</p>
+                                <button class="btn btn-dark">Compre Aqui</button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-4">
+                        <article class="card text-bg-light mb-3" >
+                            <img  src="imagens/novo1/per33.png" alt="">
+                            <div class="card-header">Nature</div>
+                            
+                            <div class="card-footer">
+                        
+                                <p>R$ 320</p>
+                                <button class="btn btn-dark">Compre Aqui</button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+    </div>
+
+    <picture class="seguido">
+        <source media="(max-width: 640px)" srcset="imagens/people.png">
+        <source media="(max-width: 1023px)" srcset="imagens/people440.png">
+        <source media="(max-width: 1279px)" srcset="imagens/people2.png">
+        <img class="w-100" src="imagens/Participe.png" alt="">
+    </picture>
+
+
+    <footer >
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form  action="">
+                        <div class="mb-2 compre">
+                            <h2>Compre Aqui</h2>
+                            <input class="form-control"  type="email" name="email" id="email" placeholder="E-mail" required>
+                            <input class="form-control" type="tel" name="tel" id="tel" placeholder="Telefone">
+                            <input class="form-control" type="text" name="text" id="text" placeholder="Item">
+                            <button  class="form-control btn btn-light" type="button">Enviar</button>
+                            <h3>G o l d e n - S e c r e t s</h3>
+                        </div>
+                    </form>
+                </div>
+                <div class="col ">
+                    <h2>Nossa Missão</h2>
+                    <p>Nossa missão é oferecer aos nossos clientes produtos de beleza que não só atendam às suas necessidades, mas também elevem sua autoestima. Queremos que cada cliente se sinta especial e confiante, sabendo que está usando o melhor que a indústria de beleza tem a oferecer.</p> 
+
+                    <ul class="row ">
+                        <li class="col-3" >
+                            <a href="#">
+                                <img src="icones/facebook.png" title="facebook" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="col-3">
+                            <a href="#">
+                                <img src="icones/instagram.png" title="instagram" alt="instagram">
+                            </a>
+                        </li>
+                        <li class="col-3">
+                            <a href="#">
+                                <img src="icones/youtube.png" title="youtube" alt="youtube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <img class="w-100" src="imagens/outro.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    <div class="foot">
+        <p> <a href="https://github.com/YasminVenceslau" target="_blank" title="Conheça o meu GitHub">Yasmin Venceslau</a>   ©  Todos os direitos reservados - 2024</p>
+    </div> 
     <script src="lib/bootstrap.bundle.min.js"></script>
 </body>
 </html>
