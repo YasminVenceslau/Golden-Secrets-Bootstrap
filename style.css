@@ -4,15 +4,17 @@
 }
 
 
+
 .navbar h1{
     font-family: golden;
     font-size: 40px;
     padding-top: 16px ;
+    font-weight: 900;
 }
 footer h5{
     padding-top:10em ;
     font-family: golden;
-    font-size: 30px;
+    font-size: 25px;
     
 }
 .nav li{
@@ -44,6 +46,8 @@ footer h5{
 section{
     background-color: rgb(255, 255, 255);
     
+    font-size: 20px;
+
     position: sticky;
     top: 0;
     left: 0;
@@ -102,6 +106,12 @@ footer img{
     font-size: 14px;
 }
 
+.card-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+
 .foot{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.865);
@@ -119,4 +129,21 @@ footer img{
 
 .foot a:hover{
     color: aliceblue;
+}
+
+@media screen and (max-width: 576px) {
+
+    section{
+        font-size: 15px;
+    }
+
+    .navbar h1{
+        
+        font-size: 25px;
+        
+       
+    }  
+
+    
+
 }
